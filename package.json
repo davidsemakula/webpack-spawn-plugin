@@ -1,0 +1,33 @@
+{
+  "name": "@davidsemakula/webpack-spawn-plugin",
+  "version": "0.1.0",
+  "description": "A webpack plugin that runs child_process.spawn within compilation",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://github.com/davidsemakula/webpack-spawn-plugin",
+  "bugs": "https://github.com/davidsemakula/webpack-spawn-plugin/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidsemakula/webpack-spawn-plugin.git"
+  },
+  "keywords": [
+    "webpack-spawn-plugin",
+    "webpack"
+  ],
+  "author": {
+    "name": "David Semakula",
+    "email": "tdsemakula@gmail.com",
+    "url": "http://davidsemakula.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cross-spawn": "^7.0.3",
+    "fkill": "^8.0.1",
+    "lodash": "^4.17.21"
+  },
+  "peerDependencies": {
+    "webpack": "^4.46.0 || ^5.72.1"
+  }
+}
