@@ -42,3 +42,11 @@ The output stream to which stdout and stderr will be sent.
 
 Indicates whether the spawned process should be replaced
 every time the hook is called.
+
+## Acknowledgements
+
+Inspired by [https://github.com/diegohaz/webpack-spawn-plugin](https://github.com/diegohaz/webpack-spawn-plugin) but with support for newer versions of webpack.
+
+## License
+
+MIT
